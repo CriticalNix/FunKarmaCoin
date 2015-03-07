@@ -12,8 +12,6 @@ FunKarma is a fork of Litecoin using scrypt as a proof-of-work algorithm.
 This will never end up on an exchange and hopefully with never have any financial value.
  - 2 minute block targets
  - ~1 million total coins
-
-The rest is the same as Bitcoin.
  - 5000 coins per block
 
 License
