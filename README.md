@@ -2,6 +2,7 @@ FunKarma integration/staging tree
 ================================
 
 Copyright (c) 2009-2014 Bitcoin Developers
+
 Copyright (c) 2015 FunKarma Developers
 
 What is FunKarma?
