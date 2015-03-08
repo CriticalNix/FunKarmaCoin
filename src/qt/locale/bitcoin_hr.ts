@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About FunKarma</source>
-        <translation>O FunKarma-u</translation>
+        <source>About FunKarmaCoin</source>
+        <translation>O FunKarmaCoin-u</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;FunKarma&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;FunKarma&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;FunKarmaCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;FunKarmaCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The FunKarma developers</source>
+        <source>The FunKarmaCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your FunKarma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ovo su vaše FunKarma adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
+        <source>These are your FunKarmaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ovo su vaše FunKarmaCoin adrese za primanje isplate. Možda želite dati drukčiju adresu svakom primatelju tako da možete pratiti tko je platio.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a FunKarma address</source>
+        <source>Sign a message to prove you own a FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified FunKarma address</source>
+        <source>Verify a message to ensure it was signed with a specified FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your FunKarma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your FunKarmaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FunKarmaS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE FunKarmaSE!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE LITECOINSE!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>FunKarma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FunKarmas from being stolen by malware infecting your computer.</source>
-        <translation>FunKarma će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše FunKarmae od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>FunKarmaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funkarmacoins from being stolen by malware infecting your computer.</source>
+        <translation>FunKarmaCoin će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše funkarmacoine od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about FunKarma</source>
-        <translation>Prikaži informacije o FunKarmau</translation>
+        <source>Show information about FunKarmaCoin</source>
+        <translation>Prikaži informacije o FunKarmaCoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a FunKarma address</source>
-        <translation>Slanje novca na FunKarma adresu</translation>
+        <source>Send coins to a FunKarmaCoin address</source>
+        <translation>Slanje novca na funkarmacoin adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for FunKarma</source>
-        <translation>Promijeni postavke konfiguracije za FunKarma</translation>
+        <source>Modify configuration options for FunKarmaCoin</source>
+        <translation>Promijeni postavke konfiguracije za funkarmacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>FunKarma</source>
-        <translation>FunKarma</translation>
+        <source>FunKarmaCoin</source>
+        <translation>FunKarmaCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About FunKarma</source>
-        <translation>&amp;O FunKarmau</translation>
+        <source>&amp;About FunKarmaCoin</source>
+        <translation>&amp;O FunKarmaCoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your FunKarma addresses to prove you own them</source>
+        <source>Sign messages with your FunKarmaCoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FunKarma addresses</source>
+        <source>Verify messages to ensure they were signed with specified FunKarmaCoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>FunKarma client</source>
-        <translation>FunKarma klijent</translation>
+        <source>FunKarmaCoin client</source>
+        <translation>FunKarmaCoin klijent</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to FunKarma network</source>
-        <translation><numerusform>%n aktivna veza na FunKarma mrežu</numerusform><numerusform>%n aktivne veze na FunKarma mrežu</numerusform><numerusform>%n aktivnih veza na FunKarma mrežu</numerusform></translation>
+        <source>%n active connection(s) to FunKarmaCoin network</source>
+        <translation><numerusform>%n aktivna veza na FunKarmaCoin mrežu</numerusform><numerusform>%n aktivne veze na FunKarmaCoin mrežu</numerusform><numerusform>%n aktivnih veza na FunKarmaCoin mrežu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adresa:%4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid FunKarma address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid FunKarmaCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adresa:%4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. FunKarma can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. FunKarmaCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid FunKarma address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana FunKarma adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FunKarmaCoin address.</source>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana funkarmacoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,7 +751,7 @@ Adresa:%4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>FunKarma-Qt</source>
+        <source>FunKarmaCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -814,13 +814,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start FunKarma after logging in to the system.</source>
-        <translation>Automatski pokreni FunKarma kad se uključi računalo</translation>
+        <source>Automatically start FunKarmaCoin after logging in to the system.</source>
+        <translation>Automatski pokreni FunKarmaCoin kad se uključi računalo</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FunKarma on system login</source>
-        <translation>&amp;Pokreni FunKarma kod pokretanja sustava</translation>
+        <source>&amp;Start FunKarmaCoin on system login</source>
+        <translation>&amp;Pokreni FunKarmaCoin kod pokretanja sustava</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the FunKarma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port FunKarma klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the FunKarmaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port FunKarmaCoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the FunKarma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the FunKarmaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Spojite se na Bitcon mrežu putem SOCKS proxy-a (npr. kod povezivanja kroz Tor)</translation>
     </message>
     <message>
@@ -924,7 +924,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FunKarma.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting FunKarmaCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -935,11 +935,11 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio FunKarmaa koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio funkarmacoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show FunKarma addresses in the transaction list or not.</source>
+        <source>Whether to show FunKarmaCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -991,7 +991,7 @@ Adresa:%4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting FunKarma.</source>
+        <source>This setting will take effect after restarting FunKarmaCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1010,7 +1010,7 @@ Adresa:%4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarma network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarmaCoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1064,7 +1064,7 @@ Adresa:%4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start FunKarma: click-to-pay handler</source>
+        <source>Cannot start funkarmacoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,7 +1214,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FunKarma-Qt help message to get a list with possible FunKarma command-line options.</source>
+        <source>Show the FunKarmaCoin-Qt help message to get a list with possible FunKarmaCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adresa:%4
     </message>
     <message>
         <location line="-104"/>
-        <source>FunKarma - Debug window</source>
+        <source>FunKarmaCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>FunKarma Core</source>
+        <source>FunKarmaCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the FunKarma debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the FunKarmaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,7 +1259,7 @@ Adresa:%4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the FunKarma RPC console.</source>
+        <source>Welcome to the FunKarmaCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1402,7 +1402,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to send the payment to (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1443,8 +1443,8 @@ Adresa:%4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Unesite FunKarma adresu (npr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Unesite FunKarmaCoin adresu (npr. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1466,8 +1466,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Unesite FunKarma adresu (npr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Unesite FunKarmaCoin adresu (npr. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1508,7 +1508,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FunKarma address</source>
+        <source>Sign the message to prove you own this FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1539,12 +1539,12 @@ Adresa:%4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Unesite FunKarma adresu (npr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Unesite FunKarmaCoin adresu (npr. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified FunKarma address</source>
+        <source>Verify the message to ensure it was signed with the specified FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adresa:%4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Unesite FunKarma adresu (npr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Unesite FunKarmaCoin adresu (npr. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter FunKarma signature</source>
+        <source>Enter FunKarmaCoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adresa:%4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The FunKarma developers</source>
+        <source>The FunKarmaCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adresa:%4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>FunKarma version</source>
-        <translation>FunKarma verzija</translation>
+        <source>FunKarmaCoin version</source>
+        <translation>FunKarmaCoin verzija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,8 +2192,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or FunKarmad</source>
-        <translation>Pošalji komandu usluzi -server ili FunKarmad</translation>
+        <source>Send command to -server or funkarmacoind</source>
+        <translation>Pošalji komandu usluzi -server ili funkarmacoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adresa:%4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: FunKarma.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: FunKarma.conf)</translation>
+        <source>Specify configuration file (default: funkarmacoin.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: funkarmacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: FunKarmad.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: FunKarma.pid)</translation>
+        <source>Specify pid file (default: funkarmacoind.pid)</source>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: funkarmacoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2232,8 +2232,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Slušaj na &lt;port&gt;u (default: 9333 ili testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 49213 or testnet: 49313)</source>
+        <translation>Slušaj na &lt;port&gt;u (default: 49213 ili testnet: 49313)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2267,8 +2267,8 @@ Adresa:%4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Prihvaćaj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugrađeni izbor: 9332 or testnet: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 49214 or testnet: 49314)</source>
+        <translation>Prihvaćaj JSON-RPC povezivanje na portu broj &lt;port&gt; (ugrađeni izbor: 49214 or testnet: 49314)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2295,13 +2295,13 @@ Adresa:%4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=FunKarmarpc
+rpcuser=funkarmacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FunKarmaCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. FunKarma is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. FunKarmaCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,8 +2362,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarma will not work properly.</source>
-        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, FunKarma neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarmaCoin will not work properly.</source>
+        <translation>Upozorenje: Molimo provjerite jesu li datum i vrijeme na vašem računalu točni. Ako vaš sat ide krivo, FunKarmaCoin neće raditi ispravno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2612,8 +2612,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the FunKarma Wiki for SSL setup instructions)</source>
-        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi FunKarma Wiki)</translation>
+        <source>SSL options: (see the FunKarmaCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL postavke: (za detalje o podešavanju SSL opcija vidi FunKarmaCoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of FunKarma</source>
-        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju FunKarmaa</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FunKarmaCoin</source>
+        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju FunKarmaCoina</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart FunKarma to complete</source>
-        <translation>Novčanik je trebao prepravak: ponovo pokrenite FunKarma</translation>
+        <source>Wallet needed to be rewritten: restart FunKarmaCoin to complete</source>
+        <translation>Novčanik je trebao prepravak: ponovo pokrenite FunKarmaCoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. FunKarma is probably already running.</source>
-        <translation>Program ne može koristiti %s na ovom računalu.  FunKarma program je vjerojatno već pokrenut.</translation>
+        <source>Unable to bind to %s on this computer. FunKarmaCoin is probably already running.</source>
+        <translation>Program ne može koristiti %s na ovom računalu.  FunKarmaCoin program je vjerojatno već pokrenut.</translation>
     </message>
     <message>
         <location line="+64"/>

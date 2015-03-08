@@ -1,5 +1,5 @@
 ---
-name: "FunKarma"
+name: "funkarmacoin"
 suites:
 - "lucid"
 architectures:
@@ -20,8 +20,8 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/FunKarma-project/FunKarma.git"
-  "dir": "FunKarma"
+- "url": "https://github.com/funkarmacoin-project/funkarmacoin.git"
+  "dir": "funkarmacoin"
 files:
 - "miniupnpc-1.9.20140401.tar.gz"
 - "qrencode-3.4.3.tar.bz2"
@@ -44,16 +44,16 @@ script: |
   make $MAKEOPTS install
   cd ..
   #
-  cd FunKarma
+  cd funkarmacoin
   mkdir -p $OUTDIR/src
   git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README.md $OUTDIR
   cp $OUTDIR/src/COPYING $OUTDIR
   cd src
-  make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$INSTDIR/include" OPENSSL_LIB_PATH="$INSTDIR/lib" $MAKEOPTS FunKarmad USE_UPNP=0 DEBUGFLAGS= USE_SSE2=1
+  make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$INSTDIR/include" OPENSSL_LIB_PATH="$INSTDIR/lib" $MAKEOPTS funkarmacoind USE_UPNP=0 DEBUGFLAGS= USE_SSE2=1
   mkdir -p $OUTDIR/bin/$GBUILD_BITS
-  install -s FunKarmad $OUTDIR/bin/$GBUILD_BITS
+  install -s funkarmacoind $OUTDIR/bin/$GBUILD_BITS
   cd ..
   qmake INCLUDEPATH="$INSTDIR/include" LIBS="-L$INSTDIR/lib" RELEASE=1 USE_QRCODE=1 USE_SSE2=1
   make $MAKEOPTS
-  install FunKarma-qt $OUTDIR/bin/$GBUILD_BITS
+  install funkarmacoin-qt $OUTDIR/bin/$GBUILD_BITS

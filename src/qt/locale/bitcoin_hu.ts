@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About FunKarma</source>
-        <translation>A FunKarmaról</translation>
+        <source>About FunKarmaCoin</source>
+        <translation>A FunKarmaCoinról</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;FunKarma&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;FunKarma&lt;/b&gt; verzió</translation>
+        <source>&lt;b&gt;FunKarmaCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;FunKarmaCoin&lt;/b&gt; verzió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+0"/>
-        <source>The FunKarma developers</source>
+        <source>The FunKarmaCoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your FunKarma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ezekkel a FunKarma-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
+        <source>These are your FunKarmaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Ezekkel a FunKarmaCoin-címekkel fogadhatod kifizetéseket. Érdemes lehet minden egyes kifizető számára külön címet létrehozni, hogy könnyebben nyomon követhesd, kitől kaptál már pénzt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,7 +81,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a FunKarma address</source>
+        <source>Sign a message to prove you own a FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -106,8 +106,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified FunKarma address</source>
-        <translation>Üzenet ellenőrzése, hogy valóban a megjelölt FunKarma címekkel van-e aláírva.</translation>
+        <source>Verify a message to ensure it was signed with a specified FunKarmaCoin address</source>
+        <translation>Üzenet ellenőrzése, hogy valóban a megjelölt FunKarmaCoin címekkel van-e aláírva.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your FunKarma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your FunKarmaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -247,8 +247,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FunKarmaS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES FunKarmaODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES LITECOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -274,8 +274,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-56"/>
-        <source>FunKarma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FunKarmas from being stolen by malware infecting your computer.</source>
-        <translation>FunKarma will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
+        <source>FunKarmaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funkarmacoins from being stolen by malware infecting your computer.</source>
+        <translation>FunKarmaCoin will close now to finish the encryption process. Ne feledd, hogy a tárca titkosítása sem nyújt teljes védelmet az adathalász programok fertőzésével szemben.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about FunKarma</source>
-        <translation>Információk a FunKarmaról</translation>
+        <source>Show information about FunKarmaCoin</source>
+        <translation>Információk a FunKarmaCoinról</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a FunKarma address</source>
+        <source>Send coins to a FunKarmaCoin address</source>
         <translation>Érmék küldése megadott címre</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for FunKarma</source>
-        <translation>FunKarma konfigurációs opciók</translation>
+        <source>Modify configuration options for FunKarmaCoin</source>
+        <translation>FunKarmaCoin konfigurációs opciók</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>FunKarma</source>
-        <translation>FunKarma</translation>
+        <source>FunKarmaCoin</source>
+        <translation>FunKarmaCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About FunKarma</source>
-        <translation>&amp;A FunKarmaról</translation>
+        <source>&amp;About FunKarmaCoin</source>
+        <translation>&amp;A FunKarmaCoinról</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,13 +499,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your FunKarma addresses to prove you own them</source>
-        <translation>Üzenet aláírása a FunKarma címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
+        <source>Sign messages with your FunKarmaCoin addresses to prove you own them</source>
+        <translation>Üzenet aláírása a FunKarmaCoin címmel, amivel bizonyítja, hogy a cím az ön tulajdona.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FunKarma addresses</source>
-        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt FunKarma címekkel vannak-e alaírva</translation>
+        <source>Verify messages to ensure they were signed with specified FunKarmaCoin addresses</source>
+        <translation>Annak ellenőrzése, hogy az üzenetek valóban a megjelölt FunKarmaCoin címekkel vannak-e alaírva</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -535,13 +535,13 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+47"/>
-        <source>FunKarma client</source>
-        <translation>FunKarma kliens</translation>
+        <source>FunKarmaCoin client</source>
+        <translation>FunKarmaCoin kliens</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to FunKarma network</source>
-        <translation><numerusform>%n aktív kapcsolat a FunKarma-hálózattal</numerusform><numerusform>%n aktív kapcsolat a FunKarma-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to FunKarmaCoin network</source>
+        <translation><numerusform>%n aktív kapcsolat a FunKarmaCoin-hálózattal</numerusform><numerusform>%n aktív kapcsolat a FunKarmaCoin-hálózattal</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,7 +655,7 @@ Cím: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid FunKarma address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid FunKarmaCoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -670,7 +670,7 @@ Cím: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. FunKarma can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. FunKarmaCoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -736,8 +736,8 @@ Cím: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid FunKarma address.</source>
-        <translation>A megadott &quot;%1&quot; cím nem egy érvényes FunKarma-cím.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FunKarmaCoin address.</source>
+        <translation>A megadott &quot;%1&quot; cím nem egy érvényes FunKarmaCoin-cím.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,7 +755,7 @@ Cím: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>FunKarma-Qt</source>
+        <source>FunKarmaCoin-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -819,12 +819,12 @@ Cím: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start FunKarma after logging in to the system.</source>
-        <translation>Induljon el a FunKarma a számítógép bekapcsolásakor</translation>
+        <source>Automatically start FunKarmaCoin after logging in to the system.</source>
+        <translation>Induljon el a FunKarmaCoin a számítógép bekapcsolásakor</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FunKarma on system login</source>
+        <source>&amp;Start FunKarmaCoin on system login</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
@@ -844,8 +844,8 @@ Cím: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the FunKarma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A FunKarma-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the FunKarmaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A FunKarmaCoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the FunKarma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>SOCKS proxyn keresztüli csatlakozás a FunKarma hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
+        <source>Connect to the FunKarmaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>SOCKS proxyn keresztüli csatlakozás a FunKarmaCoin hálózatához (pl. Tor-on keresztüli csatlakozás esetén)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,7 +929,7 @@ Cím: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FunKarma.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting FunKarmaCoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -944,7 +944,7 @@ Cím: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show FunKarma addresses in the transaction list or not.</source>
+        <source>Whether to show FunKarmaCoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -996,8 +996,8 @@ Cím: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting FunKarma.</source>
-        <translation>Ez a beállítás a FunKarma ujraindítása után lép érvénybe.</translation>
+        <source>This setting will take effect after restarting FunKarmaCoin.</source>
+        <translation>Ez a beállítás a FunKarmaCoin ujraindítása után lép érvénybe.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Cím: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarma network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a FunKarma hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarmaCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a FunKarmaCoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,7 +1069,7 @@ Cím: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start FunKarma: click-to-pay handler</source>
+        <source>Cannot start funkarmacoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1219,7 +1219,7 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FunKarma-Qt help message to get a list with possible FunKarma command-line options.</source>
+        <source>Show the FunKarmaCoin-Qt help message to get a list with possible FunKarmaCoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1239,12 +1239,12 @@ Cím: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>FunKarma - Debug window</source>
+        <source>FunKarmaCoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>FunKarma Core</source>
+        <source>FunKarmaCoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Cím: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the FunKarma debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the FunKarmaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1264,7 +1264,7 @@ Cím: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the FunKarma RPC console.</source>
+        <source>Welcome to the FunKarmaCoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1365,7 +1365,7 @@ Cím: %4
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi FunKarma az egyenlegeden.</translation>
+        <translation>Nincs ennyi funkarmacoin az egyenlegeden.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1407,7 +1407,7 @@ Cím: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to send the payment to (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1449,8 +1449,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy FunKarma-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adj meg egy FunKarmaCoin-címet (pl.: Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
     </message>
 </context>
 <context>
@@ -1472,8 +1472,8 @@ Cím: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy FunKarma-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>The address to sign the message with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adj meg egy FunKarmaCoin-címet (pl.: Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1514,7 +1514,7 @@ Cím: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FunKarma address</source>
+        <source>Sign the message to prove you own this FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1545,12 +1545,12 @@ Cím: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy FunKarma-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>The address the message was signed with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adj meg egy FunKarmaCoin-címet (pl.: Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified FunKarma address</source>
+        <source>Verify the message to ensure it was signed with the specified FunKarmaCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1566,8 +1566,8 @@ Cím: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy FunKarma-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adj meg egy FunKarmaCoin-címet (pl.: Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Cím: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter FunKarma signature</source>
-        <translation>Adja meg a FunKarma aláírást</translation>
+        <source>Enter FunKarmaCoin signature</source>
+        <translation>Adja meg a FunKarmaCoin aláírást</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Cím: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The FunKarma developers</source>
+        <source>The FunKarmaCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2188,8 +2188,8 @@ Cím: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>FunKarma version</source>
-        <translation>FunKarma verzió</translation>
+        <source>FunKarmaCoin version</source>
+        <translation>FunKarmaCoin verzió</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Cím: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or FunKarmad</source>
-        <translation>Parancs küldése a -serverhez vagy a FunKarmadhez
+        <source>Send command to -server or funkarmacoind</source>
+        <translation>Parancs küldése a -serverhez vagy a funkarmacoindhez
 </translation>
     </message>
     <message>
@@ -2222,14 +2222,14 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: FunKarma.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: FunKarma.conf)
+        <source>Specify configuration file (default: funkarmacoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: funkarmacoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: FunKarmad.pid)</source>
-        <translation>pid-fájl (alapértelmezett: FunKarmad.pid)
+        <source>Specify pid file (default: funkarmacoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: funkarmacoind.pid)
 </translation>
     </message>
     <message>
@@ -2245,8 +2245,8 @@ Cím: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 9333 or testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 49213 or testnet: 49313)</source>
+        <translation>Csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 49213 or testnet: 49313)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2280,8 +2280,8 @@ Cím: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 9332 or testnet: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 49214 or testnet: 49314)</source>
+        <translation>JSON-RPC csatlakozásokhoz figyelendő &lt;port&gt; (alapértelmezett: 49214 or testnet: 49314)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2311,13 +2311,13 @@ Cím: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=FunKarmarpc
+rpcuser=funkarmacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FunKarmaCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2333,7 +2333,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. FunKarma is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. FunKarmaCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2378,8 +2378,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarma will not work properly.</source>
-        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A FunKarma nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarmaCoin will not work properly.</source>
+        <translation>Figyelem: Ellenőrizd, hogy helyesen van-e beállítva a gépeden a dátum és az idő.  A FunKarmaCoin nem fog megfelelően működni, ha rosszul van beállítvaaz órád.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,8 +2628,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the FunKarma Wiki for SSL setup instructions)</source>
-        <translation>SSL-opciók: (lásd a FunKarma Wiki SSL-beállítási instrukcióit)</translation>
+        <source>SSL options: (see the FunKarmaCoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opciók: (lásd a FunKarmaCoin Wiki SSL-beállítási instrukcióit)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2829,13 +2829,13 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of FunKarma</source>
-        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú FunKarma-kliens szükséges</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FunKarmaCoin</source>
+        <translation>Hiba a wallet.dat betöltése közben: ehhez a tárcához újabb verziójú FunKarmaCoin-kliens szükséges</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart FunKarma to complete</source>
-        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a FunKarma-t</translation>
+        <source>Wallet needed to be rewritten: restart FunKarmaCoin to complete</source>
+        <translation>A Tárca újraírása szükséges: Indítsa újra a teljesen a FunKarmaCoin-t</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2880,7 +2880,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Nincs elég FunKarmaod.</translation>
+        <translation>Nincs elég funkarmacoinod.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2894,8 +2894,8 @@ for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. FunKarma is probably already running.</source>
-        <translation>A %s nem elérhető ezen a gépen. A FunKarma valószínűleg fut már.</translation>
+        <source>Unable to bind to %s on this computer. FunKarmaCoin is probably already running.</source>
+        <translation>A %s nem elérhető ezen a gépen. A FunKarmaCoin valószínűleg fut már.</translation>
     </message>
     <message>
         <location line="+64"/>

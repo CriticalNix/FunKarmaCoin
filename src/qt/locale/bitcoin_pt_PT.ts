@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About FunKarma</source>
-        <translation>Sobre FunKarma</translation>
+        <source>About FunKarmaCoin</source>
+        <translation>Sobre FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;FunKarma&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;FunKarma&lt;/b&gt;</translation>
+        <source>&lt;b&gt;FunKarmaCoin&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;FunKarmaCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The FunKarma developers</source>
-        <translation>Os programadores FunKarma</translation>
+        <source>The FunKarmaCoin developers</source>
+        <translation>Os programadores FunKarmaCoin</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your FunKarma addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços FunKarma para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
+        <source>These are your FunKarmaCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços FunKarmaCoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a FunKarma address</source>
-        <translation>Assine uma mensagem para provar que é dono de um endereço FunKarma</translation>
+        <source>Sign a message to prove you own a FunKarmaCoin address</source>
+        <translation>Assine uma mensagem para provar que é dono de um endereço FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified FunKarma address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço FunKarma especificado</translation>
+        <source>Verify a message to ensure it was signed with a specified FunKarmaCoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço FunKarmaCoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your FunKarma addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços FunKarma para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
+        <source>These are your FunKarmaCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços FunKarmaCoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FunKarmaS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS FunKarmaS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS LITECOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>FunKarma will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FunKarmas from being stolen by malware infecting your computer.</source>
-        <translation>O cliente FunKarma irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus FunKarmas de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>FunKarmaCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funkarmacoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente FunKarmaCoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus funkarmacoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about FunKarma</source>
-        <translation>Mostrar informação sobre FunKarma</translation>
+        <source>Show information about FunKarmaCoin</source>
+        <translation>Mostrar informação sobre FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a FunKarma address</source>
-        <translation>Enviar moedas para um endereço FunKarma</translation>
+        <source>Send coins to a FunKarmaCoin address</source>
+        <translation>Enviar moedas para um endereço funkarmacoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for FunKarma</source>
-        <translation>Modificar opções de configuração para FunKarma</translation>
+        <source>Modify configuration options for FunKarmaCoin</source>
+        <translation>Modificar opções de configuração para funkarmacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>FunKarma</source>
-        <translation>FunKarma</translation>
+        <source>FunKarmaCoin</source>
+        <translation>FunKarmaCoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About FunKarma</source>
-        <translation>&amp;Sobre o FunKarma</translation>
+        <source>&amp;About FunKarmaCoin</source>
+        <translation>&amp;Sobre o FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your FunKarma addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços FunKarma para provar que os controla</translation>
+        <source>Sign messages with your FunKarmaCoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços FunKarmaCoin para provar que os controla</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FunKarma addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço FunKarma especificado</translation>
+        <source>Verify messages to ensure they were signed with specified FunKarmaCoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço FunKarmaCoin especificado</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+47"/>
-        <source>FunKarma client</source>
-        <translation>Cliente FunKarma</translation>
+        <source>FunKarmaCoin client</source>
+        <translation>Cliente FunKarmaCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to FunKarma network</source>
-        <translation><numerusform>%n ligação ativa à rede FunKarma</numerusform><numerusform>%n ligações ativas à rede FunKarma</numerusform></translation>
+        <source>%n active connection(s) to FunKarmaCoin network</source>
+        <translation><numerusform>%n ligação ativa à rede FunKarmaCoin</numerusform><numerusform>%n ligações ativas à rede FunKarmaCoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Endereço: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid FunKarma address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço FunKarma inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FunKarmaCoin address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço FunKarmaCoin inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. FunKarma can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O FunKarma não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. FunKarmaCoin can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O FunKarmaCoin não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid FunKarma address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço FunKarma válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FunKarmaCoin address.</source>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço funkarmacoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Endereço: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>FunKarma-Qt</source>
-        <translation>FunKarma-Qt</translation>
+        <source>FunKarmaCoin-Qt</source>
+        <translation>FunKarmaCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start FunKarma after logging in to the system.</source>
-        <translation>Começar o FunKarma automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start FunKarmaCoin after logging in to the system.</source>
+        <translation>Começar o FunKarmaCoin automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FunKarma on system login</source>
-        <translation>&amp;Começar o FunKarma ao iniciar o sistema</translation>
+        <source>&amp;Start FunKarmaCoin on system login</source>
+        <translation>&amp;Começar o FunKarmaCoin ao iniciar o sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the FunKarma client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente FunKarma automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the FunKarmaCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente funkarmacoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the FunKarma network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ligar à rede FunKarma através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
+        <source>Connect to the FunKarmaCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ligar à rede FunKarmaCoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FunKarma.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o FunKarma.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FunKarmaCoin.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o FunKarmaCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show FunKarma addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços FunKarma na lista de transações.</translation>
+        <source>Whether to show FunKarmaCoin addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços FunKarmaCoin na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Endereço: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting FunKarma.</source>
-        <translation>Esta opção entrará em efeito após reiniciar o FunKarma.</translation>
+        <source>This setting will take effect after restarting FunKarmaCoin.</source>
+        <translation>Esta opção entrará em efeito após reiniciar o FunKarmaCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Endereço: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarma network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede FunKarma depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FunKarmaCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede FunKarmaCoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start FunKarma: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com FunKarma:</translation>
+        <source>Cannot start funkarmacoin: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com funkarmacoin:</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FunKarma-Qt help message to get a list with possible FunKarma command-line options.</source>
-        <translation>Mostrar a mensagem de ajuda do FunKarma-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
+        <source>Show the FunKarmaCoin-Qt help message to get a list with possible FunKarmaCoin command-line options.</source>
+        <translation>Mostrar a mensagem de ajuda do FunKarmaCoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Endereço: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>FunKarma - Debug window</source>
-        <translation>FunKarma - Janela de depuração</translation>
+        <source>FunKarmaCoin - Debug window</source>
+        <translation>FunKarmaCoin - Janela de depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>FunKarma Core</source>
-        <translation>Núcleo FunKarma</translation>
+        <source>FunKarmaCoin Core</source>
+        <translation>Núcleo FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the FunKarma debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the FunKarmaCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the FunKarma RPC console.</source>
-        <translation>Bem-vindo à consola RPC FunKarma.</translation>
+        <source>Welcome to the FunKarmaCoin RPC console.</source>
+        <translation>Bem-vindo à consola RPC FunKarmaCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1407,8 +1407,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço para onde enviar o pagamento  (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>O endereço para onde enviar o pagamento  (p.ex. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço FunKarma (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduza um endereço FunKarmaCoin (p.ex. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço a utilizar para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>O endereço a utilizar para assinar a mensagem (p.ex. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FunKarma address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço FunKarma</translation>
+        <source>Sign the message to prove you own this FunKarmaCoin address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1544,13 +1544,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>O endereço utilizado para assinar a mensagem (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>O endereço utilizado para assinar a mensagem (p.ex. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified FunKarma address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço FunKarma especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified FunKarmaCoin address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço FunKarmaCoin especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Endereço: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FunKarma address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço FunKarma (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FunKarmaCoin address (e.g. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduza um endereço FunKarmaCoin (p.ex. Fer4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter FunKarma signature</source>
-        <translation>Introduza assinatura FunKarma</translation>
+        <source>Enter FunKarmaCoin signature</source>
+        <translation>Introduza assinatura FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Endereço: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The FunKarma developers</source>
-        <translation>Os programadores FunKarma</translation>
+        <source>The FunKarmaCoin developers</source>
+        <translation>Os programadores FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Endereço: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>FunKarma version</source>
-        <translation>Versão FunKarma</translation>
+        <source>FunKarmaCoin version</source>
+        <translation>Versão FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or FunKarmad</source>
-        <translation>Enviar comando para -server ou FunKarmad</translation>
+        <source>Send command to -server or funkarmacoind</source>
+        <translation>Enviar comando para -server ou funkarmacoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: FunKarma.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: FunKarma.conf)</translation>
+        <source>Specify configuration file (default: funkarmacoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: funkarmacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: FunKarmad.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: FunKarmad.pid)</translation>
+        <source>Specify pid file (default: funkarmacoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: funkarmacoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2237,8 +2237,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation>Escute por ligações em &lt;port&gt; (por defeito: 9333 ou testnet: 19333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 49213 or testnet: 49313)</source>
+        <translation>Escute por ligações em &lt;port&gt; (por defeito: 49213 ou testnet: 49313)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2272,8 +2272,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation>Escutar por ligações JSON-RPC em &lt;port&gt; (por defeito: 9332 ou rede de testes: 19332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 49214 or testnet: 49314)</source>
+        <translation>Escutar por ligações JSON-RPC em &lt;port&gt; (por defeito: 49214 ou rede de testes: 49314)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2300,24 +2300,24 @@ Endereço: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=FunKarmarpc
+rpcuser=funkarmacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FunKarma Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FunKarmaCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=FunKarmarpc
+rpcuser=funkarmacoinrpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarmaCoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. FunKarma is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o FunKarma já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. FunKarmaCoin is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o FunKarmaCoin já está a ser executado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarma will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o FunKarma não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FunKarmaCoin will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o FunKarmaCoin não irá funcionar correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the FunKarma Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Wiki FunKarma para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the FunKarmaCoin Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Wiki FunKarmaCoin para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of FunKarma</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do FunKarma</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FunKarmaCoin</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do FunKarmaCoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart FunKarma to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o FunKarma para completar</translation>
+        <source>Wallet needed to be rewritten: restart FunKarmaCoin to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o FunKarmaCoin para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta FunKarma&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. FunKarma is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o FunKarma já está a funcionar.</translation>
+        <source>Unable to bind to %s on this computer. FunKarmaCoin is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o FunKarmaCoin já está a funcionar.</translation>
     </message>
     <message>
         <location line="+64"/>

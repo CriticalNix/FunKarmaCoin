@@ -1,8 +1,8 @@
-FunKarma 0.8.x BETA
+FunKarmaCoin 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 FunKarma Developers
+Copyright (c) 2011-2014 FunKarmaCoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-FunKarma is a free open source peer-to-peer electronic cash system that is
+FunKarmaCoin is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,17 +20,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run FunKarma-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run FunKarmaCoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/FunKarma-qt (GUI, 32-bit)
-- bin/32/FunKarmad (headless, 32-bit)
-- bin/64/FunKarma-qt (GUI, 64-bit)
-- bin/64/FunKarmad (headless, 64-bit)
+- bin/32/funkarmacoin-qt (GUI, 32-bit)
+- bin/32/funkarmacoind (headless, 32-bit)
+- bin/64/funkarmacoin-qt (GUI, 64-bit)
+- bin/64/funkarmacoind (headless, 64-bit)
 
-See the documentation at the [FunKarma Wiki](http://FunKarma.info)
+See the documentation at the [FunKarmaCoin Wiki](http://funkarmacoin.info)
 for help and more information.
 
 

@@ -1,9 +1,9 @@
-Building FunKarma
+Building FunKarmaCoin
 
-See doc/readme-qt.rst for instructions on building FunKarma-Qt,
+See doc/readme-qt.rst for instructions on building FunKarmaCoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of FunKarma.
+implementation of FunKarmaCoin.
 
-See doc/build-*.txt for instructions on building FunKarmad,
+See doc/build-*.txt for instructions on building funkarmacoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of FunKarma.
+implementation of FunKarmaCoin.

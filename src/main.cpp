@@ -19,7 +19,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "FunKarma cannot be compiled without assertions."
+# error "FunKarmaCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -35,8 +35,8 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // FunKarma: starting difficulty is 1 / 2^12
+uint256 hashGenesisBlock("0xd440c43621a4bdd7ad46ee8d2780d3849d8f5da07f710bf178d84652ab7d355a");
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // FunKarmaCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "FunKarma Signed Message:\n";
+const string strMessageMagic = "FunKarmaCoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -362,7 +362,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // FunKarma: IsDust() detection disabled, allows any valid dust to be relayed.
+    // FunKarmaCoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -623,7 +623,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // FunKarma
+    // FunKarmaCoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1087,16 +1087,28 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 5000 * COIN;
+    int64 nSubsidy = 500 * COIN;
+    if(nHeight == 2)  
+    {
+        nSubsidy = 2000000 * COIN;
+    }
+    else if(nHeight < 5000)  
+    {
+        nSubsidy = 5000 * COIN;
+    }
+    else if(nHeight < 10000)  
+    {
+        nSubsidy = 2500 * COIN;
+    }
 
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 840000); // FunKarma: 840k blocks in ~4 years
+    nSubsidy >>= (nHeight / 840000); // FunKarmaCoin: 840k blocks in ~4 years
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 0.5 * 24 * 60 * 60; // FunKarma: half day
-static const int64 nTargetSpacing = 2 * 60; // FunKarma: 2 minutes
+static const int64 nTargetTimespan = 0.5 * 24 * 60 * 60; // FunKarmaCoin: 0.5 day
+static const int64 nTargetSpacing = 2 * 60; // FunKarmaCoin: 2 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -1155,7 +1167,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
         return pindexLast->nBits;
     }
 
-    // FunKarma: This fixes an issue where a 51% attack can change difficulty at will.
+    // FunKarmaCoin: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -2102,7 +2114,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // FunKarma: Special short-term limits to avoid 10,000 BDB lock limit:
+    // FunKarmaCoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2743,10 +2755,10 @@ bool LoadBlockIndex()
     if (fTestNet)
     {
         pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f");
+        pchMessageStart[1] = 0xf2;
+        pchMessageStart[2] = 0xb1;
+        pchMessageStart[3] = 0xe3;
+        hashGenesisBlock = uint256("0xd440c43621a4bdd7ad46ee8d2780d3849d8f5da07f710bf178d84652ab7d355a");
     }
 
     //
@@ -2779,7 +2791,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Menendez Is to Face Corruption Charges, U.S. Official Says";
+        const char* pszTimestamp = "NY Times 08/Mar/2015 Ferguson Became Symbol, but Bias Knows No Border";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2791,14 +2803,14 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1425752580;
+        block.nTime    = 1425819935;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2084524493;
+        block.nNonce   = 579805;
 
         if (fTestNet)
         {
-            block.nTime    = 1425752580;
-            block.nNonce   = 385270584;
+            block.nTime    = 1425819935;
+            block.nNonce   = 579805;
         }
 
         //// debug print
@@ -2806,7 +2818,37 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(block.hashMerkleRoot == uint256("0x1e7c5a9ad23cc0e7ef4a3722f7c0bb22cfc5bffa37e533b62e64c1c936aca932"));
+        if (true && block.GetHash() != hashGenesisBlock)
+        {
+            printf("Searching for genesis block...\n");
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            uint256 thash;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+
+            loop
+            {
+                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+                if (thash <= hashTarget)
+                    break;
+                if ((block.nNonce & 0xFFF) == 0)
+                {
+                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                }
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time\n");
+                    ++block.nTime;
+                }
+            }
+            printf("block.nTime = %u \n", block.nTime);
+            printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+            
+            }
         block.print();
         assert(hash == hashGenesisBlock);
 
@@ -3079,7 +3121,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // FunKarma: increase each by adding 2 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xf1, 0xf0, 0xc6, 0xd1 }; // FunKarmaCoin: increase each by adding 2 to bitcoin's value.
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4129,7 +4171,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// FunKarmaMiner
+// FunKarmaCoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4542,7 +4584,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("FunKarmaMiner:\n");
+    printf("FunKarmaCoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4551,7 +4593,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("FunKarmaMiner : generated block is stale");
+            return error("FunKarmaCoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4565,17 +4607,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("FunKarmaMiner : ProcessBlock, block not accepted");
+            return error("FunKarmaCoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static FunKarmaMiner(CWallet *pwallet)
+void static FunKarmaCoinMiner(CWallet *pwallet)
 {
-    printf("FunKarmaMiner started\n");
+    printf("FunKarmaCoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("FunKarma-miner");
+    RenameThread("funkarmacoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4597,7 +4639,7 @@ void static FunKarmaMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running FunKarmaMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running FunKarmaCoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4696,7 +4738,7 @@ void static FunKarmaMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("FunKarmaMiner terminated\n");
+        printf("FunKarmaCoinMiner terminated\n");
         throw;
     }
 }
@@ -4721,7 +4763,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&FunKarmaMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&FunKarmaCoinMiner, pwallet));
 }
 
 // Amount compression:
