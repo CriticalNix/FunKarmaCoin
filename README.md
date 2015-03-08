@@ -71,8 +71,8 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./funkarmacoin-qt_test
     
-    Addnodes
-    -------
+Addnodes
+-------
 addnode=104.236.112.46
 addnode=178.62.80.57
 
