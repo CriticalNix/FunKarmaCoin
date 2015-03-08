@@ -1090,7 +1090,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 500 * COIN;
     if(nHeight == 2)  
     {
-        nSubsidy = 2000000 * COIN;
+        nSubsidy = 20000 * COIN;
     }
     else if(nHeight < 5000)  
     {
@@ -1107,8 +1107,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 0.5 * 24 * 60 * 60; // FunKarmaCoin: 0.5 day
-static const int64 nTargetSpacing = 2 * 60; // FunKarmaCoin: 2 minutes
+static const int64 nTargetTimespan =  10 * 30; // FunKarmacoin: 5 minutes
+static const int64 nTargetSpacing = 1 * 30; // FunKarmacoin: 30 Seconds.
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
